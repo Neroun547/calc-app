@@ -1,0 +1,108 @@
+/* styles.css */
+
+/* Add styles here to customize the appearance of your app */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-color: #000;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container input {
+    border: none;
+    margin: 0 auto;
+    font-size: 22px;
+    width: 500px;
+    background-color: transparent;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    color: #fff;
+} 
+
+.container__sub {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container__sub button {
+    padding: 10px;
+}
+
+.container__btn-calculate {
+    width: 400px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: none;
+    background-color: #5e5e5e;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container__table {
+    display: none;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    width: 500px;
+    height: auto;
+}
+
+.table__logos {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #ccc;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.table__value-first {
+    color: #fff;
+    width: 70px;
+    text-align: center;
+}
+
+.table__value-second {
+    color: #fff;
+    width: 70px;
+    text-align: center;
+}
+
+.table__formule {
+    width: 70px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.table__row {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    margin-top: 20px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <div class="container">
+      <input type="text" placeholder="Formule" class="input__formule" disabled>
+
+      <div class="container__sub">
+        <button class="btn btn__biggest">></button>
+        <button class="btn btn__smaller"><</button>
+        <button class="btn btn__and">and</button>
+        <button class="btn btn__or">or</button>
+        <button class="btn btn__a">A</button>
+        <button class="btn btn__b">B</button>
+        <button class="clear">Clear</button>
+      </div>
+      <button class="container__btn-calculate">Calculate</button>
+      <div class="container__sub">
+        <div class="container__message"> 
+
+        </div>
+      </div>
+
+      <div class="container__table">
+        <div class="table__logos">
+          <div class="table__value-first"></div>
+          <div class="table__value-second"></div>
+          <div class="table__formule"></div>
+        </div>
+        <div class="table__row">
+          <div class="table__row-value"></div>
+          <div class="table__row-value"></div>
+          <div class="table__row-value"></div>
+        </div>
+        <div class="table__row">
+          <div class="table__row-value"></div>
+          <div class="table__row-value"></div>
+          <div class="table__row-value"></div>
+        </div>
+        <div class="table__row">
+          <div class="table__row-value"></div>
+          <div class="table__row-value"></div>
+          <div class="table__row-value"></div>
+        </div>
+        <div class="table__row">
+          <div class="table__row-value"></div>
+          <div class="table__row-value"></div>
+          <div class="table__row-value"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./renderer.js"></script>
+    <script src="./js/calculateOr.mjs" type="module"></script>
+    <script src="./js/script.mjs" type="module"></script>
+  </body>
+</html>
